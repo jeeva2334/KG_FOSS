@@ -1,6 +1,9 @@
 body{
     background-image: url("285674.jpg");
-    width: 100vw;
+    width: 80vw;
     height: 100vh;
 }
-s
+
+div.a {
+    text-align: center;
+}
