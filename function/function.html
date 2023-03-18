@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Adding Two Numbers</title>
+    <script type="text/javascript">
+      function addNumbers(num1, num2) {
+        return num1 + num2;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Adding Two Numbers</h1>
+    <p>The sum of 10 and 10 is: <span id="result"></span></p>
+    <script type="text/javascript">
+      var num1 = 10;
+      var num2 = 10;
+      var result = addNumbers(num1, num2);
+      document.getElementById("result").innerHTML = result;
+    </script>
+  </body>
+</html>
