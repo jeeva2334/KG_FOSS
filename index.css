@@ -1,6 +1,42 @@
-body{
+nav {
+    background-color: #d8551c;
+    height: 50px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  li {
+    float: left;
+  
+  }
+  
+  li a {
+    display: block;
+    color: rgb(120, 13, 13);
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  
+  }
+  body{
     background-image: url("285674.jpg");
-    width: 100vw;
-    height: 100vh;
-}
-s
+  }
+  h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  li a:hover {
+    background-color: #85c640;
+    cursor: pointer;
+  }
+  
