@@ -1,6 +1,33 @@
 body{
-    background-image: url("285674.jpg");
+    
     width: 100vw;
     height: 100vh;
 }
-s
+nav {
+    background-color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    width: 470px;
+    background-color: rgb(0, 86, 86);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #120088;
+  }
+  
